@@ -1,9 +1,12 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import com.example.demo.entity.Student;
+import com.example.demo.repository.StudentRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
